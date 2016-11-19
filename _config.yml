@@ -1,0 +1,2 @@
+title: Your New Jekyll Site
+exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]

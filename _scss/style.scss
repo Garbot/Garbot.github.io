@@ -1,0 +1,36 @@
+/**
+ *
+ *  Theme Name: NAME
+ *  Theme URI: http://gleesik.ro/
+ *  Author: Gleesik™
+ *  Author URI: http://gleesik.ro/
+ *  Description: DESCRIPTION
+ *  Version: 1.0
+ *  License: GNU General Public License v2 or later
+ *  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ *  Tags: TAGS
+ *  Text Domain: NAME
+ *
+ *  @package gleesik_project
+ *
+ **/
+
+@charset "UTF-8";
+
+// Fonts
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700';
+
+// Modules
+@import "modules/_reset",
+        "modules/_variables",
+        "modules/_class-tools",
+        "modules/_bootstrap-grid",
+        "modules/_responsive-embed";
+
+// Components
+@import "components/_class-tools",
+        "components/_bootstrap-grid",
+        "components/_responsive-embed";
+
+// Layout
+@import "layout/_global";
