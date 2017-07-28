@@ -1,6 +1,4 @@
-==============================================================
-=====     jekyll-gulp-autoprefixer-sass-browser-sync     =====
-==============================================================
+# Jekyll Starter Kit v1.3
 
 A project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
