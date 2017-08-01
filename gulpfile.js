@@ -1,3 +1,8 @@
+/**
+ * Gleesik Jekyll Starter Kit
+ * @version 1.4.0
+ */
+
 var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var sass        = require('gulp-sass');
@@ -12,52 +17,52 @@ var messages = {
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
-    browserSync.notify(messages.jekyllBuild);
-    return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
-        .on('close', done);
+  browserSync.notify(messages.jekyllBuild);
+  return cp.spawn( jekyll , ['build'], {stdio: 'inherit'})
+    .on('close', done);
 });
 
 /**
  * Rebuild Jekyll & do page reload
  */
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
-    browserSync.reload();
+  browserSync.reload();
 });
 
 /**
  * Wait for jekyll-build, then launch the Server
  */
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
-    browserSync({
-        server: {
-            baseDir: '_site'
-        }
-    });
+  browserSync({
+    server: {
+      baseDir: '_site'
+    }
+  });
 });
 
 /**
- * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
+ * Compile files from _sass into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src('_scss/*.scss')
-        .pipe(sass({
-          includePaths: ['scss'],
-          onError: browserSync.notify('Error in sass')
-        }))
-        .on('error', sass.logError)
-        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
-        .pipe(gulp.dest('_site/css'))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+  return gulp.src('_sass/*.sass')
+    .pipe(sass({
+      includePaths: ['sass'],
+      onError: browserSync.notify('Error in sass')
+    }))
+    .on('error', sass.logError)
+    .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(gulp.dest('_site/css'))
+    .pipe(browserSync.reload({stream:true}))
+    .pipe(gulp.dest('css'));
 });
 
 /**
- * Watch scss files for changes & recompile
+ * Watch sass files for changes & recompile
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch(['_scss/*.scss', '_scss/*/*.scss'], ['sass']);
-    gulp.watch(['*.html', '_includes/*.html', '_includes/*/*.html', '_layouts/*.html', '_layouts/*/*.html', '_posts/*', 'js/*.js', 'images/*'], ['jekyll-rebuild']);
+  gulp.watch(['_sass/*.sass', '_sass/*/*.sass'], ['sass']);
+  gulp.watch(['*.html', '_includes/*.html', '_includes/*/*.html', '_layouts/*.html', '_layouts/*/*.html', '_posts/*', 'js/*.js', 'images/*'], ['jekyll-rebuild']);
 });
 
 /**

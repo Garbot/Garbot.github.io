@@ -1,6 +1,8 @@
-# Jekyll Starter Kit v1.3
+# Jekyll Starter Kit
 
-A project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+A project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync.
+
+![Gleesik - Jekyll Starter Kit](http://i.imgur.com/7HmwEtt.jpg)
 
 ## System Preparation
 

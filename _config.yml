@@ -1,2 +1,14 @@
-title: Your New Jekyll Site
+# Declaring a global site language and a country code
+lang: en-US
+
+# Excluded files from the compilation
 exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
+
+# Base site url
+baseurl:
+
+# Version
+version: 0.0.0
+
+# Site title
+title: Your New Jekyll Site
