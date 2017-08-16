@@ -1,4 +1,5 @@
-# Jekyll Starter Kit
+# Gleesik&trade; Jekyll Starter Kit
+## ```Version: 1.5.1```
 
 A project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync.
 
@@ -45,3 +46,8 @@ gulp.task("deploy", ["jekyll-build"], function () {
         .pipe(deploy());
 });
 ```
+
+You can contact me at:
+ - [www.gleesik.ro](http://gleesik.ro/)
+ - gleesik.dark@gmail.com
+ - [facebook@gleesik](http://facebook.com/gleesik)

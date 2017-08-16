@@ -8,7 +8,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
 baseurl:
 
 # Version
-version: 0.0.0
+version: 1.0.0
 
 # Site title
 title: Your New Jekyll Site
