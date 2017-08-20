@@ -1,5 +1,5 @@
 {
-  "name": "gleesik-starter-kit",
+  "name": "gleesik-jsk",
   "version": "1.5.1",
   "description": "A project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
   "main": "gulpfile.js",
