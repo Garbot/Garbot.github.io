@@ -51,16 +51,16 @@ portfolio:
   url: 'https://www.hongry.xyz'
 
 # Portfolio Item
-#- title: Garrett Sitter - Portfolio Site
-#  image: port2.png
-#  description: 'You\'re looking at it!'
-#  url: 'https://garbot.github.io'
+- title: Garrett Sitter - Portfolio Site
+  image: port2.png
+  description: 'You\'re looking at it!'
+  url: 'https://garbot.github.io'
   
 # Portfolio Item
-#- title: Tic Tac Toe AI
-#  image: port3.png
-#  description: 'Experiment in building an unbeatable Tic Tac Toe AI'
-#  url: 'https://codepen.io/garbot/pen/bWLGGL'
+- title: Tic Tac Toe AI
+  image: port3.png
+  description: 'Experiment in building an unbeatable Tic Tac Toe AI'
+  url: 'https://codepen.io/garbot/pen/bWLGGL'
   
 # Portfolio Item
 #- title: tetris.js
