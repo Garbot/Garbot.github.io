@@ -21,7 +21,7 @@
     <!-- Portfolio Grid -->
     <div class="row portfolio-grid">
 
-      {% for item in site.portfolio %}
+      {% for item in site.data.portfolio %}
 
       <div class="col-md-4 col-sm-6 item visible">
         <figure class="img-wrap">
@@ -32,7 +32,7 @@
           <h4>{{ item.description }}</h4>
           <div class="links">
             <ul>
-              <li><a href="{{ item.url }}" class="item-link" target="_blank"><i class="pe-7s-link"></i></a></li>
+              <li><a href="{{ item.url }}" class="item-link" target="_blank"><i class="pe-7s-link"></i>test</a></li>
               <!--<li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>-->
             </ul>
           </div>
