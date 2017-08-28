@@ -51,53 +51,53 @@ portfolio:
   url: 'https://www.hongry.xyz'
 
 # Portfolio Item
-- title: Garrett Sitter - Portfolio Site
-  image: port2.png
-  description: 'You\'re looking at it!'
-  url: 'https://garbot.github.io'
+#- title: Garrett Sitter - Portfolio Site
+#  image: port2.png
+#  description: 'You\'re looking at it!'
+#  url: 'https://garbot.github.io'
   
 # Portfolio Item
-- title: Tic Tac Toe AI
-  image: port3.png
-  description: 'Experiment in building an unbeatable Tic Tac Toe AI'
-  url: 'https://codepen.io/garbot/pen/bWLGGL'
+#- title: Tic Tac Toe AI
+#  image: port3.png
+#  description: 'Experiment in building an unbeatable Tic Tac Toe AI'
+#  url: 'https://codepen.io/garbot/pen/bWLGGL'
   
 # Portfolio Item
-- title: tetris.js
-  image: port4.png
-  description: 'Browser based tetris game built using HTML5 Canvas and vanilla Javascript'
-  url: 'http://tetris.js.s3-website-us-east-1.amazonaws.com/'
+#- title: tetris.js
+#  image: port4.png
+#  description: 'Browser based tetris game built using HTML5 Canvas and vanilla Javascript'
+#  url: 'http://tetris.js.s3-website-us-east-1.amazonaws.com/'
   
 # Portfolio Item
-- title: Simon Extreme
-  image: port5.png
-  description: 'Skateboard and Mountain Dew optional.  Game built with dynamically generated interactive SVG'
-  url: 'https://codepen.io/garbot/pen/BRqXay'
+#- title: Simon Extreme
+#  image: port5.png
+#  description: 'Skateboard and Mountain Dew optional.  Game built with dynamically generated interactive SVG'
+#  url: 'https://codepen.io/garbot/pen/BRqXay'
 
 # Portfolio Item
-- title: Twitquote
-  image: port6.png
-  description: 'Simple node.js app that retrieves a random tweet from a specified user'
-  url: ''
+#- title: Twitquote
+#  image: port6.png
+#  description: 'Simple node.js app that retrieves a random tweet from a specified user'
+#  url: ''
   
 # Portfolio Item
-- title: Pomodoro
-  image: port7.png
-  description: 'Browser based pomodoro timer'
-  url: 'https://codepen.io/garbot/pen/NpXVPV'
+#- title: Pomodoro
+#  image: port7.png
+#  description: 'Browser based pomodoro timer'
+#  url: 'https://codepen.io/garbot/pen/NpXVPV'
   
 # Portfolio Item
-- title: Reddit Clone
-  image: port8.png
-  description: 'Reddit clone - built in meteor.js'
-  url: ''
+#- title: Reddit Clone
+#  image: port8.png
+#  description: 'Reddit clone - built in meteor.js'
+#  url: ''
   
 #####################################
 #############   Footer   ############
 #####################################
-footer-copyright-text: Garrett Sitter
-footer-copyright-url: https://garbot.github.io
-footer-copyright-year: 2017
+#footer-copyright-text: Garrett Sitter
+#footer-copyright-url: https://garbot.github.io
+#footer-copyright-year: 2017
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: ""
+#google_analytics: ""
