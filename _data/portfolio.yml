@@ -2,13 +2,21 @@
 ############  Portfolio  ############
 #####################################
 
-# Portfolio Item
-- title: Hongry
-  image: port1.png
-  description: 'Location based restaurant locator'
-  url: 'https://www.hongry.xyz'
+- name: Eric Mill
+  github: konklone
+
+- name: Parker Moore
+  github: parkr
+
+- name: Liu Fengyun
+  github: liufengyun
 
 # Portfolio Item
+#- title: Hongry
+#  image: port1.png
+#  description: 'Location based restaurant locator'
+#  url: 'https://www.hongry.xyz'
+
 #- title: Garrett Sitter - Portfolio Site
 #  image: port2.png
 #  description: 'You\'re looking at it!'
