@@ -2,11 +2,6 @@
 ############  Portfolio  ############
 #####################################
 
-portfolio-title: Projects
-portfolio-description: Here are some things that I've built.
-
-portfolio:
-
 # Portfolio Item
 - title: Hongry
   image: port1.png
