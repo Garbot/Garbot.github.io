@@ -2052,8 +2052,7 @@ body {
   padding: 30px;
   -webkit-border-radius: 3px;
           border-radius: 3px;
-  /*color: lighten(#2ecc71, 45%)*/
-  color: #F00;
+  color: #e6f9ee;
   background-image: -webkit-linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
   background-image: -o-linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
   background-image: linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
