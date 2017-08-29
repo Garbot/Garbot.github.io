@@ -1,0 +1,25 @@
+{
+  "name": "gulp",
+  "description": "A project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "main": "gulpfile.js",
+  "authors": [
+    "Garrett Sitter"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "homepage": "https://github.com/Garbot/Garbot.github.io",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}
