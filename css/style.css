@@ -2041,7 +2041,7 @@ body {
   color: white;
   background-color: #1f1f1f; }
 
-header.temp-header {
+.temp-header {
   position: absolute;
   width: 75%;
   top: 50%;
@@ -2052,25 +2052,26 @@ header.temp-header {
   padding: 30px;
   -webkit-border-radius: 3px;
           border-radius: 3px;
-  color: #e6f9ee;
+  /*color: lighten(#2ecc71, 45%)*/
+  color: #F00;
   background-image: -webkit-linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
   background-image: -o-linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
   background-image: linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
   -webkit-transition: 300ms ease all;
   -o-transition: 300ms ease all;
   transition: 300ms ease all; }
-  header.temp-header:hover {
+  .temp-header:hover {
     cursor: pointer;
     color: white;
     background-color: rgba(44, 62, 80, 0.2);
     -webkit-transform: translateY(-50%) translateX(-50%) scale(1.2);
         -ms-transform: translateY(-50%) translateX(-50%) scale(1.2);
             transform: translateY(-50%) translateX(-50%) scale(1.2); }
-    header.temp-header:hover .temp-logo {
+    .temp-header:hover .temp-logo {
       -webkit-transform: scale(1.2);
           -ms-transform: scale(1.2);
               transform: scale(1.2); }
-  header.temp-header .temp-logo {
+  .temp-header .temp-logo {
     margin: 20px auto;
     -webkit-transform: scale(1);
         -ms-transform: scale(1);
@@ -2081,14 +2082,14 @@ header.temp-header {
     transition: transform 750ms ease;
     transition: transform 750ms ease, -webkit-transform 750ms ease;
     width: 35%; }
-    header.temp-header .temp-logo img {
+    .temp-header .temp-logo img {
       display: block; }
-  header.temp-header h1.temp-title {
+  .temp-header h1.temp-title {
     display: inline-block;
     text-transform: uppercase;
     text-indent: 0.2em;
     letter-spacing: 0.2em; }
-  header.temp-header h4.temp-tagline {
+  .temp-header h4.temp-tagline {
     color: rgba(255, 255, 255, 0.35); }
 
 .portfolio-section img {
