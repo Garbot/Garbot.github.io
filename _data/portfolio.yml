@@ -3,41 +3,41 @@
 #####################################
 
 - title: Hongry
-  image: port1.png
+  image: port1.svg
   description: Location based restaurant locator
   url: https://www.hongry.xyz
 
 - title: Garrett Sitter - Portfolio Site
-  image: port2.png
+  image: port2.svg
   description: You're looking at it!
   url: 'https://garbot.github.io'
-  
+
 - title: Tic Tac Toe AI
-  image: port3.png
+  image: port3.svg
   description: 'Experiment in building an unbeatable Tic Tac Toe AI'
   url: 'https://codepen.io/garbot/pen/bWLGGL'
-  
+
 - title: tetris.js
-  image: port4.png
+  image: port4.svg
   description: 'Browser based tetris game built using HTML5 Canvas and vanilla Javascript'
   url: 'http://tetris.js.s3-website-us-east-1.amazonaws.com/'
-  
+
 - title: Simon Extreme
-  image: port5.png
+  image: port5.svg
   description: 'Skateboard and Mountain Dew optional.  Game built with dynamically generated interactive SVG'
   url: 'https://codepen.io/garbot/pen/BRqXay'
 
 - title: Twitquote
-  image: port6.png
+  image: port6.svg
   description: 'Simple node.js app that retrieves a random tweet from a specified user'
   url: ''
-  
+
 - title: Pomodoro
-  image: port7.png
+  image: port7.svg
   description: 'Browser based pomodoro timer'
   url: 'https://codepen.io/garbot/pen/NpXVPV'
-  
+
 - title: Reddit Clone
-  image: port8.png
+  image: port8.svg
   description: 'Reddit clone - built in meteor.js'
   url: ''

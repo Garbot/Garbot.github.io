@@ -23,18 +23,16 @@
 
       {% for item in site.data.portfolio %}
 
-      <div class="col-md-4 col-sm-6 item visible">
-        <figure class="img-wrap">
-          <!--<img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}" alt="Portfolio Item Image" />-->
-        </figure>
+      <div class="col-md-2 col-sm-2 item visible">
+
         <div class="item-content">
-          <h3>{{ item.title }}</h3>
-          <h4>{{ item.description }}</h4>
           <div class="links">
-            <ul>
-              <li><a href="{{ item.url }}" class="item-link" target="_blank"><i class="pe-7s-link"></i>test</a></li>
-              <!--<li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>-->
-            </ul>
+            <figure class="img-wrap">
+              <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}"/>
+            </figure>
+            <div><a href="{{ item.url }}" class="item-link" target="_blank"><i class="pe-7s-link"></i>{{ item.title }}</a></div>
+            <div>{{ item.description }}</div>
+            <!--<li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>-->
           </div>
         </div>
       </div>

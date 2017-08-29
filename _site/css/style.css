@@ -361,13 +361,13 @@ template {
 
 body {
   font-family: "Segoe UI", sans-serif;
-  font-siz: 16px;
+  font-size: 16px;
   color: white;
   background-color: #1f1f1f; }
 
 header.temp-header {
   position: absolute;
-  width: 25%;
+  width: 75%;
   top: 50%;
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
@@ -414,3 +414,9 @@ header.temp-header {
     letter-spacing: 0.2em; }
   header.temp-header h4.temp-tagline {
     color: rgba(255, 255, 255, 0.35); }
+
+.portfolio-section img {
+  max-width: 20%; }
+
+.portfolio-section li {
+  list-style: none; }
