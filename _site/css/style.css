@@ -2041,7 +2041,13 @@ body {
   color: white;
   background-color: #1f1f1f; }
 
-.temp-header {
+.portfolio-section img {
+  max-width: 200px; }
+
+.portfolio-section li {
+  list-style: none; }
+
+.portfolio-item {
   width: 75%;
   padding: 30px;
   -webkit-border-radius: 3px;
@@ -2053,16 +2059,10 @@ body {
   -webkit-transition: 300ms ease all;
   -o-transition: 300ms ease all;
   transition: 300ms ease all; }
-  .temp-header:hover {
+  .portfolio-item:hover {
     cursor: pointer;
     color: white;
     background-color: rgba(44, 62, 80, 0.2);
     -webkit-transform: translateY(-10%) translateX(-10%) scale(1.2);
         -ms-transform: translateY(-10%) translateX(-10%) scale(1.2);
             transform: translateY(-10%) translateX(-10%) scale(1.2); }
-
-.portfolio-section img {
-  max-width: 200px; }
-
-.portfolio-section li {
-  list-style: none; }

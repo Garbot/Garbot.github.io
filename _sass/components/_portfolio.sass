@@ -4,3 +4,20 @@
 
   li
     list-style: none
+
+.portfolio-item
+  width: 75%
+  //top: 50%
+  //left: 50%
+  //transform: translateY(-50%) translateX(-50%)
+  padding: 30px
+  border-radius: 3px
+  color: lighten(#2ecc71, 45%)
+  background-image: linear-gradient(45deg, transparentize(#2ecc71, 0.95) , transparentize(#e74c3c, 0.95))
+  transition: 300ms ease all
+
+  &:hover
+    cursor: pointer
+    color: white
+    background-color: transparentize(#2c3e50, 0.8)
+    transform: translateY(-10%) translateX(-10%) scale(1.2)
