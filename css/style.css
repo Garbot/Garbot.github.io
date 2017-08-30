@@ -2057,7 +2057,11 @@ body {
 .portfolio-text {
   opacity: 0;
   height: 200px;
-  visibility: hidden; }
+  visibility: hidden;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%; }
 
 .portfolio-item {
   height: 200px;
@@ -2066,7 +2070,7 @@ body {
   padding: 0px;
   -webkit-border-radius: 3px;
           border-radius: 3px;
-  margin-bottom: 1em;
+  margin-bottom: 10px;
   background-image: -webkit-linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
   background-image: -o-linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
   background-image: linear-gradient(45deg, rgba(46, 204, 113, 0.05), rgba(231, 76, 60, 0.05));
@@ -2074,9 +2078,6 @@ body {
   -o-transition: all 300ms ease;
   transition: all 300ms ease; }
   .portfolio-item img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
     top: 0%;
     left: 0%; }
   .portfolio-item:hover {
