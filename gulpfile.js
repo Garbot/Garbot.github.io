@@ -33,6 +33,7 @@ gulp.task("jekyll-rebuild", ["jekyll-build"], function() {
  */
 gulp.task("browser-sync", ["sass", "jekyll-build"], function() {
   browserSync({
+    port: 8080,
     server: {
       baseDir: "_site"
     }

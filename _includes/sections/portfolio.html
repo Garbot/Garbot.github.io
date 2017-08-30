@@ -6,7 +6,7 @@
     <div class="row text-center">
 
       <!-- Section Header -->
-      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header text-center">
         <h2>{{ site.portfolio-title }}</h2>
         <hr class="normal">
       </header>
@@ -23,24 +23,24 @@
 
       {% for item in site.data.portfolio %}
 
-      <div class="col-md-2 col-sm-2 item visible">
-
-        <div class="item-content portfolio-item text-center">
-          <div class="links">
-            <figure class="img-wrap">
-              <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}"/>
-            </figure>
-            <div><a href="{{ item.url }}" class="item-link" target="_blank"><i class="pe-7s-link"></i>{{ item.title }}</a></div>
-            <div>{{ item.description }}</div>
-            <!--<li><a href="{{ site.baseurl }}/images/portfolio/{{ item.image }}" class="item-expand"><i class="pe-7s-exapnd2"></i></a></li>-->
+      <div class="col-md-3 col-sm-6 item visible">
+        <a href="{{ item.url }}" class="item-link" target="_blank"><i class="pe-7s-link"></i>
+          <div class="item-content portfolio-item text-center">
+            <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}"/>
+            <!--<img src="http://lorempixel.com/500/500/"/>-->
+            <div class="portfolio-text">
+              <div>{{ item.title }}</div>
+              <div>{{ item.description }}</div>
+            </div>
+              
           </div>
-        </div>
+        </a>
       </div>
 
       {% endfor %}
 
       <!-- Overlay Lightbox -->
-      <div id="overlay" class="overlay"></div>
+      <!--<div id="overlay" class="overlay"></div>-->
 
     </div>
 

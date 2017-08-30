@@ -1,23 +1,52 @@
 .portfolio-section
-  img
-    max-width: 200px
+  //img
+    //max-width: 200px
 
   li
     list-style: none
+    
+  hr
+    align: center
+    width: 70%
+    
+  a
+    text-decoration: none
+
+.portfolio-grid
+  margin-top: 2em
+
+.portfolio-text
+  opacity: 0
+  height: 200px
+  visibility: hidden
 
 .portfolio-item
-  //width: 75%
-  //top: 50%
-  //left: 50%
-  //transform: translateY(-50%) translateX(-50%)
-  padding: 30px
+  height: 200px
+  overflow: hidden
+  font-size: 0.8em
+  padding: 0px
   border-radius: 3px
-  color: lighten(#2ecc71, 45%)
+  margin-bottom: 1em
   background-image: linear-gradient(45deg, transparentize(#2ecc71, 0.95) , transparentize(#e74c3c, 0.95))
-  transition: 300ms ease all
-
+  @include transition(all, 300ms, ease)
+  
+  img
+    position: absolute
+    width: 100%
+    height: 100%
+    top: 0%
+    left: 0%
+    
+  
   &:hover
     cursor: pointer
     color: white
     background-color: transparentize(#2c3e50, 0.8)
-    transform: translateY(-10%) translateX(-10%) scale(1.2)
+    transform: translateY(-10%) scale(1.2)
+    
+    .portfolio-text
+      visibility: visible
+      opacity: 0.8
+      background-color: #383d3a
+      @include transition(background-color, 300ms, ease-in-out)
+      @include transition(opacity, 300ms, ease-in-out)
