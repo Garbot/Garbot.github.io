@@ -2043,11 +2043,6 @@ body {
 
 .temp-header {
   width: 75%;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateY(-50%) translateX(-50%);
-      -ms-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
   padding: 30px;
   -webkit-border-radius: 3px;
           border-radius: 3px;
@@ -2065,30 +2060,6 @@ body {
     -webkit-transform: translateY(-50%) translateX(-50%) scale(1.2);
         -ms-transform: translateY(-50%) translateX(-50%) scale(1.2);
             transform: translateY(-50%) translateX(-50%) scale(1.2); }
-    .temp-header:hover .temp-logo {
-      -webkit-transform: scale(1.2);
-          -ms-transform: scale(1.2);
-              transform: scale(1.2); }
-  .temp-header .temp-logo {
-    margin: 20px auto;
-    -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1);
-    -webkit-transition: -webkit-transform 750ms ease;
-    transition: -webkit-transform 750ms ease;
-    -o-transition: transform 750ms ease;
-    transition: transform 750ms ease;
-    transition: transform 750ms ease, -webkit-transform 750ms ease;
-    width: 35%; }
-    .temp-header .temp-logo img {
-      display: block; }
-  .temp-header h1.temp-title {
-    display: inline-block;
-    text-transform: uppercase;
-    text-indent: 0.2em;
-    letter-spacing: 0.2em; }
-  .temp-header h4.temp-tagline {
-    color: rgba(255, 255, 255, 0.35); }
 
 .portfolio-section img {
   max-width: 200px; }
