@@ -2,17 +2,21 @@
 <header class="big-img">
 
   <div class="container">
-    <!-- Site Header Banner -->
-    <div class="row header-banner parent">
+
+    <div class="row">
       <!-- Heading Title -->
       <div class="heading-title text-center">
         <h1>{{ site.header-title }}</h1>
+        <img id="rotate" src="images/shining-sun.svg"/ class="d-lg-none">
         <h2 class="thin">{{ site.header-tagline }}</h2>
+        
         <ul class="sm-buttons">
-          <li>Linkedin</li>
-          <li>Github</li>
-          <li>Stack Overflow</li>
+          <li><a href="{{ site.github }}"><i class='fa fa-github fa-lg' aria-hidden="true"></i></a></li>
+          <li><a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href="{{ site.stackoverflow }}"><i class="fa fa-stack-overflow fa-lg" aria-hidden="true"></i></a></li>
+          <li><a href="{{ site.codepen }}"><i class="fa fa-codepen fa-lg" aria-hidden="true"></i></a></li>
         </ul>
+        
       </div>
 
     </div>

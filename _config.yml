@@ -17,13 +17,14 @@ version: 1.0.2
 
 # Site title
 title: Garrett Sitter
+
 # Website language
 lang: en-US
 
 # Header Title
 header-title: Garrett Sitter
 # Header Tagline
-header-tagline: Web Developer | Raleigh, NC
+header-tagline: Web Developer - Raleigh, NC
 
 
 ###########
@@ -33,7 +34,7 @@ header-tagline: Web Developer | Raleigh, NC
 #pinterest: '#'
 #facebook: '#'
 #twitter: '#
-linkedin: 'garrett-sitter-94b59b126'
+linkedin: 'https://www.linkedin.com/in/garrett-sitter-94b59b126'
 #reddit: '#'
 github: 'https://github.com/Garbot'
 stackoverflow: 'https://stackoverflow.com/users/5670520/garrett-sitter'

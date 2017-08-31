@@ -8,7 +8,44 @@ header.big-img
   background-origin: initial
   background-clip: initial
   background-color: initial
+  height: 350px
+  margin-bottom: 2em
 
   .heading-title
     margin: 0 auto
     height: 350px
+    position: relative
+    transform: translateY(25%)
+    -webkit-transform: translateY(25%)
+    -ms-transform: translateY(25%)
+    
+    ul
+      padding-start: 0px
+      -webkit-padding-start: 0px 
+    
+    li
+      display: inline
+      margin: 0.3em
+      text-decoration: none
+      
+      a
+        color: #fff
+        @include transition(color, 300ms, ease-in-out)
+        
+      a:hover
+        color: #afff82
+        
+    #rotate
+        max-width: 50px
+        max-height: 50px
+        height: auto
+        display: block
+        margin: 0 auto
+        animation: spin 30s infinite linear
+
+
+@keyframes spin
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)

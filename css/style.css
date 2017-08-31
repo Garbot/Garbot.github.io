@@ -2,6 +2,7 @@
  * Author: Costrasel Daniel/Garrett Sitter
  * Author URL: https://garbot.github.io
  * Version: 0.0.1 */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 @-ms-viewport {
   width: device-width; }
 
@@ -2041,6 +2042,10 @@ body {
   color: white;
   background-color: #1f1f1f; }
 
+.portfolio-section img {
+  max-width: 100%;
+  height: auto; }
+
 .portfolio-section li {
   list-style: none; }
 
@@ -2113,7 +2118,51 @@ header.big-img {
           background-origin: initial;
   -webkit-background-clip: initial;
           background-clip: initial;
-  background-color: initial; }
+  background-color: initial;
+  height: 350px;
+  margin-bottom: 2em; }
   header.big-img .heading-title {
     margin: 0 auto;
-    height: 350px; }
+    height: 350px;
+    position: relative;
+    transform: translateY(25%);
+    -webkit-transform: translateY(25%);
+    -ms-transform: translateY(25%); }
+    header.big-img .heading-title ul {
+      padding-start: 0px;
+      -webkit-padding-start: 0px; }
+    header.big-img .heading-title li {
+      display: inline;
+      margin: 0.3em;
+      text-decoration: none; }
+      header.big-img .heading-title li a {
+        color: #fff;
+        -webkit-transition: color 300ms ease-in-out;
+        -o-transition: color 300ms ease-in-out;
+        transition: color 300ms ease-in-out; }
+      header.big-img .heading-title li a:hover {
+        color: #afff82; }
+    header.big-img .heading-title #rotate {
+      max-width: 50px;
+      max-height: 50px;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      -webkit-animation: spin 30s infinite linear;
+              animation: spin 30s infinite linear; }
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
