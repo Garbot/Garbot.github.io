@@ -4,36 +4,36 @@
 
 - title: Hongry
   image: port1.svg
-  description: 'Location based restaurant locator.'
-  url: https://www.hongry.xyz
+  description: "Finds a nearby restaurant for you when you're hungry (or even hooongry)."
+  url: 'https://www.hongry.xyz'
 
 - title: Tic Tac Toe AI
-  image: port3.svg
+  image: port2.svg
   description: 'An unbeatable Tic Tac Toe AI.'
   url: 'https://codepen.io/garbot/pen/bWLGGL'
 
 - title: tetris.js
-  image: port4.svg
+  image: port3.svg
   description: 'Browser based tetris game built using HTML5 Canvas and vanilla Javascript.'
   url: 'http://tetris.js.s3-website-us-east-1.amazonaws.com/'
 
 - title: Simon Extreme
-  image: port5.svg
+  image: port4.svg
   description: 'Game utilizing dynamically generated interactive SVG.  Skateboard and Mountain Dew optional.'
   url: 'https://codepen.io/garbot/pen/BRqXay'
 
 - title: Twitquote
-  image: port6.svg
+  image: port5.svg
   description: 'Simple node.js app that retrieves a random tweet from a specified user.'
   url: ''
 
 - title: Pomodoro
-  image: port7.svg
+  image: port6.svg
   description: 'Browser based pomodoro timer'
   url: 'https://codepen.io/garbot/pen/NpXVPV'
 
 - title: Reddit Clone
-  image: port8.svg
+  image: port7.svg
   description: 'Reddit clone - built in meteor.js'
   url: ''
 

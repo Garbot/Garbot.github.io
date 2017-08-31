@@ -2199,16 +2199,16 @@ a {
 a:hover {
   color: #afff82; }
 
-.portfolio-section img {
-  max-width: 100%;
-  height: auto; }
-
-.portfolio-section li {
-  list-style: none; }
-
-.portfolio-section hr {
-  align: center;
-  width: 70%; }
+.portfolio-section {
+  margin-bottom: 5em; }
+  .portfolio-section img {
+    max-width: 100%;
+    height: auto; }
+  .portfolio-section li {
+    list-style: none; }
+  .portfolio-section hr {
+    align: center;
+    width: 70%; }
 
 .portfolio-grid {
   margin-top: 2em; }
