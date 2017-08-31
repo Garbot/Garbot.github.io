@@ -7,11 +7,6 @@
   description: 'Location based restaurant locator.'
   url: https://www.hongry.xyz
 
-- title: Garrett Sitter - Portfolio Site
-  image: port2.svg
-  description: "You're looking at it!"
-  url: 'https://garbot.github.io'
-
 - title: Tic Tac Toe AI
   image: port3.svg
   description: 'An unbeatable Tic Tac Toe AI.'
@@ -41,3 +36,7 @@
   image: port8.svg
   description: 'Reddit clone - built in meteor.js'
   url: ''
+
+#- title: Lorem Ipsum, ya'll
+#  image:
+#  description: 'NC-based lorem ipsum generator'
