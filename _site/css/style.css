@@ -2036,7 +2036,7 @@ template {
   text-align: center; }
 
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   color: white;
   background-color: #1f1f1f; }
@@ -2062,6 +2062,10 @@ body {
   top: 0%;
   left: 0%;
   width: 100%; }
+  .portfolio-text .portfolio-title {
+    margin: 10px; }
+  .portfolio-text .portfolio-description {
+    margin: 10px; }
 
 .portfolio-item {
   height: 200px;
@@ -2089,7 +2093,7 @@ body {
             transform: translateY(-10%) scale(1.2); }
     .portfolio-item:hover .portfolio-text {
       visibility: visible;
-      opacity: 0.8;
+      opacity: 0.7;
       background-color: #383d3a;
       -webkit-transition: background-color 300ms ease-in-out;
       -o-transition: background-color 300ms ease-in-out;
@@ -2097,3 +2101,19 @@ body {
       -webkit-transition: opacity 300ms ease-in-out;
       -o-transition: opacity 300ms ease-in-out;
       transition: opacity 300ms ease-in-out; }
+
+header.big-img {
+  background-image: url(/images/header-image.jpeg);
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-attachment: initial;
+  -webkit-background-origin: initial;
+          background-origin: initial;
+  -webkit-background-clip: initial;
+          background-clip: initial;
+  background-color: initial; }
+  header.big-img .heading-title {
+    margin: 0 auto;
+    height: 350px; }

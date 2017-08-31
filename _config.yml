@@ -9,7 +9,7 @@ baseurl:
 url: "https://garbot.github.io/"
 
 # Collections
-collections: 
+collections:
 - portfolio
 
 # Version
@@ -19,10 +19,12 @@ version: 1.0.2
 title: Garrett Sitter
 # Website language
 lang: en-US
+
 # Header Title
-header-title: Raleigh, NC based web developer
+header-title: Garrett Sitter
 # Header Tagline
-headter-tagline: Garrett Sitter
+header-tagline: Web Developer | Raleigh, NC
+
 
 ###########
 ## Links ##
@@ -40,7 +42,7 @@ codepen: 'https://codepen.io/garbot/'
 #vimeo: '#'
 
 
-  
+
 #####################################
 #############   Footer   ############
 #####################################

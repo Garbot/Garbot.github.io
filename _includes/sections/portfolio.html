@@ -6,14 +6,14 @@
     <div class="row text-center">
 
       <!-- Section Header -->
-      <header class="col-md-8 col-md-push-2 col-sm-12 section-header text-center">
-        <h2>{{ site.portfolio-title }}</h2>
-        <hr class="normal">
+      <header class="col-md-12 col-md-push-2 col-sm-12 section-header text-center">
+        <h2>Current Projects</h2>
+        <hr>
       </header>
 
       <!-- Section Content -->
-      <div class="col-md-8 col-md-push-2 col-sm-12 section-content">
-        <p>{{ site.portfolio-description }}</p>
+      <div class="col-md-12 col-md-push-2 col-sm-12 section-content">
+        <p>Here are some examples of projects and work I have created.  You can also check out my <a href="https://github.com/Garbot">Github</a> account to see more.</p>
       </div>
 
     </div>
@@ -23,16 +23,16 @@
 
       {% for item in site.data.portfolio %}
 
-      <div class="col-md-3 col-sm-6 item visible">
+      <div class="col-lg-3 col-md-4 col-sm-6 item visible">
         <a href="{{ item.url }}" class="item-link" target="_blank"><i class="pe-7s-link"></i>
           <div class="item-content portfolio-item text-center">
-            <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}"/>
-            <!--<img src="http://lorempixel.com/500/500/"/>-->
+            <!-- <img src="{{ site.baseurl }}/images/portfolio/{{ item.image }}"/> -->
+            <img src="http://lorempixel.com/500/500/"/>
             <div class="portfolio-text">
-              <div>{{ item.title }}</div>
-              <div>{{ item.description }}</div>
+              <div class="portfolio-title">{{ item.title }}</div>
+              <div class="portfolio-description">{{ item.description }}</div>
             </div>
-              
+
           </div>
         </a>
       </div>
