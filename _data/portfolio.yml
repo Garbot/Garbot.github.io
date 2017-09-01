@@ -3,22 +3,22 @@
 #####################################
 
 - title: Hongry
-  image: port1.svg
+  image: hongry.png
   description: "Finds a nearby restaurant for you when you're hungry (or even hooongry)."
   url: 'https://www.hongry.xyz'
 
 - title: Tic Tac Toe AI
-  image: port2.svg
+  image: tic-tac-toe.png
   description: 'An unbeatable Tic Tac Toe AI.'
   url: 'https://codepen.io/garbot/pen/bWLGGL'
 
 - title: tetris.js
-  image: port3.svg
+  image: tetris.png
   description: 'Browser based tetris game built using HTML5 Canvas and vanilla Javascript.'
   url: 'http://tetris.js.s3-website-us-east-1.amazonaws.com/'
 
 - title: Simon Extreme
-  image: port4.svg
+  image: simon.png
   description: 'Game utilizing dynamically generated interactive SVG.  Skateboard and Mountain Dew optional.'
   url: 'https://codepen.io/garbot/pen/BRqXay'
 
@@ -28,7 +28,7 @@
   url: ''
 
 - title: Pomodoro
-  image: port6.svg
+  image: pomodoro.png
   description: 'Browser based pomodoro timer'
   url: 'https://codepen.io/garbot/pen/NpXVPV'
 
