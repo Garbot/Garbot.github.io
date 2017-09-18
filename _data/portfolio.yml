@@ -35,7 +35,7 @@
 - title: Reddit Clone
   image: port7.svg
   description: 'Reddit clone - built in meteor.js'
-  url: ''
+  url: 'http://ec2-52-206-192-26.compute-1.amazonaws.com/'
 
 #- title: Lorem Ipsum, ya'll
 #  image:
