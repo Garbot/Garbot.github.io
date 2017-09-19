@@ -2313,7 +2313,7 @@ header.big-img {
             transform: translateY(-10%) scale(1.2); }
     .portfolio-item:hover .portfolio-text {
       visibility: visible;
-      opacity: 0.7;
+      opacity: 0.9;
       background-color: #383d3a;
       -webkit-transition: background-color 300ms ease-in-out;
       -o-transition: background-color 300ms ease-in-out;
