@@ -2,16 +2,26 @@
 ############  Portfolio  ############
 #####################################
 
+- title: Reddit Clone
+  image: port7.svg
+  description: 'Reddit clone - built with meteor.js'
+  url: 'http://ec2-52-206-192-26.compute-1.amazonaws.com/'
+
 - title: Hongry
   image: hongry.png
   description: "Finds a nearby restaurant for you when you're hungry (or even hooongry)."
   url: 'https://www.hongry.xyz'
 
+- title: Pomodoro
+  image: pomodoro.png
+  description: 'Browser based pomodoro timer'
+  url: 'https://codepen.io/garbot/pen/NpXVPV'
+
 - title: Tic Tac Toe AI
   image: tic-tac-toe.png
   description: 'An unbeatable Tic Tac Toe AI.'
   url: 'https://codepen.io/garbot/pen/bWLGGL'
-
+  
 - title: tetris.js
   image: tetris.png
   description: 'Browser based tetris game built using HTML5 Canvas and vanilla Javascript.'
@@ -27,15 +37,7 @@
   description: 'Simple node.js app that retrieves a random tweet from a specified user.'
   url: ''
 
-- title: Pomodoro
-  image: pomodoro.png
-  description: 'Browser based pomodoro timer'
-  url: 'https://codepen.io/garbot/pen/NpXVPV'
 
-- title: Reddit Clone
-  image: port7.svg
-  description: 'Reddit clone - built in meteor.js'
-  url: 'http://ec2-52-206-192-26.compute-1.amazonaws.com/'
 
 #- title: Lorem Ipsum, ya'll
 #  image:
