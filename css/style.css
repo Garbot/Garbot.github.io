@@ -2,7 +2,7 @@
  * Author: Costrasel Daniel/Garrett Sitter
  * Author URL: https://garbot.github.io
  * Version: 0.0.1 */
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Source+Sans+Pro");
 @-ms-viewport {
   width: device-width; }
 
@@ -2185,10 +2185,13 @@ template {
   text-align: center; }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   color: white;
   background-color: #1f1f1f; }
+
+h1, h2 {
+  font-family: "Josefin Sans", sans-serif; }
 
 a {
   color: #fff;
@@ -2211,15 +2214,15 @@ header.big-img {
   -webkit-background-clip: initial;
           background-clip: initial;
   background-color: initial;
-  height: 350px;
+  height: 550px;
   margin-bottom: 2em; }
   header.big-img .heading-title {
     margin: 0 auto;
     height: 350px;
     position: relative;
-    transform: translateY(25%);
-    -webkit-transform: translateY(25%);
-    -ms-transform: translateY(25%); }
+    transform: translateY(53%);
+    -webkit-transform: translateY(53%);
+    -ms-transform: translateY(53%); }
     header.big-img .heading-title ul {
       padding-start: 0px;
       -webkit-padding-start: 0px; }
