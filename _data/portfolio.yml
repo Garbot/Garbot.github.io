@@ -32,12 +32,15 @@
   description: 'Game utilizing dynamically generated interactive SVG.  Skateboard and Mountain Dew optional.'
   url: 'https://codepen.io/garbot/pen/BRqXay'
 
-- title: Twitquote
-  image: port5.svg
-  description: 'Simple node.js app that retrieves a random tweet from a specified user.'
-  url: ''
+- title: Twitch.tv streams sidebar
+  image: twitch.png
+  description: 'Component displaying active twitch.tv stream data.'
+  url: 'https://codepen.io/garbot/pen/oBKPLx'
 
-
+#- title: Twitquote
+#  image: port5.svg
+#  description: 'Simple node.js app that retrieves a random tweet from a specified user.'
+#  url: ''
 
 #- title: Lorem Ipsum, ya'll
 #  image:
